@@ -1,0 +1,13 @@
+# Secrets — never commit real values
+terraform.tfvars
+*.pem
+terraform-ec2-key
+terraform-ec2-key.pub
+
+# Terraform local state/cache
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
