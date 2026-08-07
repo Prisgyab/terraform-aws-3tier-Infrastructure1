@@ -11,3 +11,7 @@ terraform-ec2-key.pub
 *.tfstate.*
 crash.log
 crash.*.log
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
